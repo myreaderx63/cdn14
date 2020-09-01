@@ -1,0 +1,1236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:wb="//open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Solidot: 奇客的资讯，重要的东西</title>
+<meta name="baidu-site-verification" content="DFUjePAJQQ" />
+<meta property="wb:webmaster" content="14038afe88cfc78f" />
+<meta name="keywords" content="IT,开源,开发者,软件,硬件,书籍,互联网,科学,社会,奇客,社区"/>
+<meta property="qc:admins" content="4316552177637414746727" />
+<meta name="description" content="Solidot是至顶网下的科技资讯网站，主要面对开源自由软件和关心科技资讯读者群，包括众多中国开源软件的开发者，爱好者和布道者。口号是“奇客的资讯，重要的东西”。"/>
+<base href="//www.solidot.org" />
+<link href="https://icon.solidot.org/css/default/common.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/default/base.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/green/index.css" rel="stylesheet" type="text/css" />
+<script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3991498076" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="https://icon.solidot.org/js/jquery-1.7.2.min.js"></script>
+<link rel="alternate" title="Solidot RSS" href="//www.solidot.org/index.rss" type="application/rss+xml" />
+<link rel="alternate" title="BNet职业商学院" href="//www.bnet.com.cn/bnetzc.xml" type="application/rss+xml" />
+<link rel="alternate" title="CNET(科技资讯网)原创" href="://www.cnetnews.com.cn/cnetnews.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网网络频道 原创" href="//net.zhiding.cn/network_security_zone/netrss.xml" type="application/rss+xml"/>
+<link rel="alternate" title="至顶网服务器频道 原创" href="//server.zhiding.cn/server/serverrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网软件频道 原创" href="//soft.zhiding.cn/software_zone/softrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网存储频道 原创" href="//stor-age.zhiding.cn/stor-age/storrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网 CIO 频道 原创" href="//cio.zhiding.cn/cio/ciorss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网安全频道 原创" href="//security.zhiding.cn/security_zone/securityrss.xml" type="application/rss+xml" />
+</head>
+<body class="bg_col">
+<div id="headads">
+	<div id="ads_l">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="870" height="90" alt="adv" src="https://am.zhiding.cn/www/images/201902/SolidotPodcast_87090_0215.jpg" />	</div>
+	<div id="ads_r">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="300" height="90" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_saibogushi90_0225.jpg" />	</div>
+	<div class="clear"></div>
+</div>
+<div id="main">
+<div class="logo_sosobox">
+    <div class="logo_bg">
+        <a href="/" class="logo_bg" title="Solidot 奇客的资讯，重要的东西"></a>
+    </div>
+    <div class="soso_inp">
+        <div class="soand_btn">
+            <form action="//www.google.com.hk/search" method="get" target="_blank">
+                <div class="soso_div" positionleft="7">
+                    <strong> 
+                        <input type="text" autocomplete="off" name="query" class="textinp">
+                    </strong>
+                </div>
+                <div class="btn_ss">
+                    <input type="hidden" value="solidot.org" name="as_sitesearch"/>
+                    <input type="submit" name="" value="" style="cursor:pointer"/>
+                </div>
+            </form>
+        </div>
+        <div class="login_rr">
+                        <div class="login_r"><a href="/login">登录</a> <a href="/register">注册</a></div>
+                        <ul id="ul_nav">
+                                <li class="s_icon">
+                    <span>文章</span>
+                    <div class="translat_down hiden" style="right:2px;">
+                        <a href="/submit">提交文章</a>
+                        <a href="/?issue=20200831">往日文章</a>
+                        <a href="/polllist">往日投票</a>
+                                            </div>
+                </li>
+                                <li class="s_icon">
+                    <span>皮肤</span>
+                    <div class="translat_down hiden">
+                        <a href="/?theme=blue">蓝色</a>
+                        <a href="/?theme=yellow">橙色</a>
+                        <a href="/?theme=green">绿色</a>
+                        <a href="/?theme=clightgreen">浅绿色</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="nav-secondary-wrap">
+    <nav class="nav-secondary" role="secondary-navigation">
+        <ul>
+            <li class="nav-label">分类: </li>
+            <li><a href="/news">信息流</a></li>
+                                    <li><a href="//www.solidot.org/">首页</a></li>
+                                                <li><a href="//startup.solidot.org/">创业问答</a></li>
+                                                <li><a href="//linux.solidot.org/">Linux</a></li>
+                                                <li><a href="//science.solidot.org/">科学</a></li>
+                                                <li><a href="//technology.solidot.org/">科技</a></li>
+                                                <li><a href="//mobile.solidot.org/">移动</a></li>
+                                                <li><a href="//apple.solidot.org/">苹果</a></li>
+                                                <li><a href="//hardware.solidot.org/">硬件</a></li>
+                                                <li><a href="//software.solidot.org/">软件</a></li>
+                                                <li><a href="//security.solidot.org/">安全</a></li>
+                                                <li><a href="//games.solidot.org/">游戏</a></li>
+                                                <li><a href="//books.solidot.org/">书籍</a></li>
+                                                <li><a href="//ask.solidot.org/">ask</a></li>
+                                                <li><a href="//idle.solidot.org/">idle</a></li>
+                                                <li><a href="//cloud.solidot.org/">云计算</a></li>
+                        	                  
+        </ul>
+    </nav>
+    <div class="combined_log" style="width:240px; padding-right:0;">
+        <h2 style="color:#fff; margin-top:-0.1em;">关注我们：</h2>
+        <ul class="clearfix">
+        	<li><a class="rss" title="rss" href="/index.rss"></a></li>
+            <li><wb:follow-button uid="1686235170" type="gray_1" width=67 height=24></wb:follow-button></li>
+            <li><a class="xima" target="_blank" rel="nofollow" title="喜马拉雅" href="http://www.ximalaya.com/keji/16007374/"></a></li>
+            <li><a class="wechat" title="扫码关注solidot" href="javascript:void(0);"></a></li>
+        </ul>
+     </div>
+</div>
+<div class="clear"></div>
+
+<div id="right">
+    <div class="wechat_code hiden"></div>
+    <div class="qu_btns">
+    	<a href="/submit">提交文章</a>
+        <!--a href="/bbsubmit">发布帖子</a>-->
+    </div>
+        <div class="adv">
+        <a target="_blank" href="http://www.ppthub.com.cn/"><img width="300" height="250" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_PPTHub250_0222.jpg" /></a>    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>Solidot 公告</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <b>文章提交注意事项：</b>
+                <br>
+                请在发布文章时用HTML代码加上至少一条新闻来源的链接；原创性消息，可加入相关信息（如涉及公司的网址）的链接。有任何问题，<b>邮件至：he.fang#zhiding.cn<br>
+                    ken：feigaobox@gmail.com<br>
+                </b>
+                <span class="pad_10px">注意：收到邮件乱码的用户请修改客户端的默认字体编码，从"简体中文（GB2312）"修改为"Unicode（UTF-8）"。</span>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+        <div class="block_r">
+        <div class="rig_tittle">
+            <h2>投 票</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <form method="post" action="/poll?op=dopoll&qid=239" name="form1" id="form1" class="tp">
+                    <fieldset>
+                        <b>经常使用的搜索引擎是</b><br/>
+                                                                        <input name="aid[]" type="radio" value="1" /> <b>DuckDuckGo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="2" /> <b>ChinaSo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="3" /> <b>Google</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="4" /> <b>WeChat</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="5" /> <b>Yandex</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="6" /> <b>Baidu</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="7" /> <b>Sogou</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="8" /> <b>Weibo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="9" /> <b>Bing</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="10" /> <b>其它</b>
+                                                <div class="hei5px"></div>
+                        <input type="submit" class="tp_btn" value="投票" /> <span class="v_anwers"> [ <a
+                                href="/poll?qid=239&op=result"><b>结果</b></a> | <a
+                                href="/polllist"><b>投票</b></a>]
+                        </span>
+                        <div class="hei5px"></div>
+                        评论:<b>6</b> | 得票数:<b>7419</b>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门文章</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="old_articles">
+                    <li class="old_blockli">
+                        <ul class="comment_on">
+                                                                <li><a href="/story?sid=65397">美国睡眠医学学会呼吁取消夏令时</a>
+                                    <em>(1)</em></li>
+                                                                <li><a href="/story?sid=65399">《通信短信息服务管理规定》修订稿限制垃圾电话和短信</a>
+                                    <em>(1)</em></li>
+                                                                <li><a href="/story?sid=65396">美国发现新冠二次感染病例，患者症状严重</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65398">台发生风筝卷起女童事故</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65400">前工程师承认删除了 456 个思科 WebEx 虚拟机 </a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65401">SpaceX Falcon 火箭完成第一百次发射</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65402">地球的固态内核只有 10 亿年历史</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65403">墨西哥毒贩使用携带炸弹的无人机执行暗杀活动</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65404">天文学家称宽带卫星星座对天文观测的影响无法消除</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65405">玩家用 Google 地图修复微软飞行模拟地图错误</a>
+                                    <em>(0)</em></li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门评论</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="comment_on">
+                                        <li><a
+                            href="/story?sid=65397#comment_293768"><b>乌鲁木齐和拉萨、兰州和成都使用北京时间岂不是相当于全年使用夏令时？</b></a>
+                        (1 points, 一般)
+                        by solidot1528092189                        在 2020年09月01日05时19分 星期二 
+                        评论到 <a href="/story?sid=65397">美国睡眠医学学会呼吁取消夏令时</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65390#comment_293767"><b>论话术在宣传中的重要性</b></a>
+                        (1 points, 一般)
+                        by podleader                        在 2020年08月31日15时08分 星期一 
+                        评论到 <a href="/story?sid=65390">得州农工教授被控在为 NASA 开展研究期间隐瞒与中国的关系</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65387#comment_293764"><b>Not yet</b></a>
+                        (1 points, 一般)
+                        by solids                        在 2020年08月30日10时17分 星期日 
+                        评论到 <a href="/story?sid=65387">Google 下架 Fediverse 应用</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65332#comment_293750"><b>近十年美国IT公司的主要创新</b></a>
+                        (1 points, 一般)
+                        by Reinhardt                        在 2020年08月25日17时39分 星期二 
+                        评论到 <a href="/story?sid=65332">IBM 和微软雇员支持从产品中清除种族主义名词</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65306#comment_293746"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月21日17时56分 星期五 
+                        评论到 <a href="/story?sid=65306">吴修铭认为 TikTok 禁令来得太迟了</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65283#comment_293741"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月20日21时10分 星期四 
+                        评论到 <a href="/story?sid=65283">美国扩大华为限制震动全球供应链</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65293#comment_293740"><b>勘误</b></a>
+                        (1 points, 一般)
+                        by cupen                        在 2020年08月20日13时02分 星期四 
+                        评论到 <a href="/story?sid=65293">科学家演示“维格纳的朋友”思想实验</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65243#comment_293735"><b>二月份中药细辛免疫抑制的假治愈？ 查病历吧。</b></a>
+                        (1 points, 一般)
+                        by solidot1528092189                        在 2020年08月15日09时46分 星期六 
+                        评论到 <a href="/story?sid=65243">两名新冠痊愈患者再次检测出阳性</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65234#comment_293734"><b>推进一点点共产主义</b></a>
+                        (1 points, 一般)
+                        by cutsolidot                        在 2020年08月13日19时42分 星期四 
+                        评论到 <a href="/story?sid=65234">中国视频直播平台表示将加强吃播审查</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65227#comment_293733"><b>BAD KEYBOARD: missing unit</b></a>
+                        (1 points, 一般)
+                        by lot                        在 2020年08月13日17时15分 星期四 
+                        评论到 <a href="/story?sid=65227">宇宙将会如何终结？</a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+    
+    <div class="block_r">
+        <div class="rig_tittle">
+            <h2>快速链接</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="haveno_circle">
+                    <li><a target="_blank" href="//www.zhiding.cn">至顶网</a></li>
+                    <li><a target="_blank" href="//linux.cn">Linux中国</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+</div><div id="center">
+        <div class="notice">
+        <div class="arrow"></div>
+        <i class="b_circle"></i> <i class="bt_circle"></i>
+        <div class="notice_m">
+            致长期以来一直关注solidot的海内外朋友，请点击<a class="same_the" href="//www.solidot.org/story?sid=32542">这里</a>查看。        </div>
+    </div>
+                <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65405">玩家用 Google 地图修复微软飞行模拟地图错误</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=26" title="Google"><img
+                        width="104" height="38"
+                        src="https://icon.solidot.org/images/topics/topicgoogle.gif" alt="Google" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 22时12分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                微软飞行模拟 2020（FS2020）利用了微软的必应地图和程序化生成技术在游戏中创造出真实的地图。但必应地图的数据存在缺失，对于缺少的部分它导入了社区主导的 OpenStreetMap 地图数据。结果因为有人输错数据而在澳大利亚<a href="https://www.solidot.org/story?sid=65326">创造了</a>一座不存在的 212 层摩天大楼。FS2020 社区的玩家已经在游戏中发现了很多此类的错误，为了修正错误和填补空白玩家<a href="https://www.rockpapershotgun.com/2020/08/28/players-are-fixing-microsoft-flight-simulators-missing-monuments-with-google-maps/" target="_blank">借鉴了</a>微软的竞争对手、最为知名的地图服务 Google 地图。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65405">阅读更多...</a>
+                    | <a href="/comments?sid=65405&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65404">天文学家称宽带卫星星座对天文观测的影响无法消除</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=102" title="太空"><img
+                        width="73" height="59"
+                        src="https://icon.solidot.org/images/topics/topicspace.gif" alt="太空" /></a>
+            </div>
+            <span class="user" id="19032">
+                <a href="/~blackhat">blackhat</a>(19032)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 21时35分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                天文学家发表<a href="https://aas.org/satellite-constellations-1-workshop-report">报告</a>称，SpaceX 等公司发射的宽带卫星星座<a href="https://arstechnica.com/science/2020/08/spacex-satellites-effect-on-night-sky-cant-be-eliminated-astronomers-say/" target="_blank">将会不可避免</a>的对天文观测造成负面影响。SpaceX 至今发射了 600 多颗 Starlink 卫星，OneWeb 发射了 74 颗，两家公司都计划发射数万颗后续卫星，此外亚马逊也计划发射数千颗宽带卫星。SpaceX CEO Elon Musk 曾断言宽带卫星不会对天文学造成问题。但天文学家对已发射的宽带卫星积累足够多的观测数据之后，对这一问题进行了计算机模拟，结果显示如果真的部署 10 万颗低地球轨道卫星的话，没有任何缓解措施能完全避开卫星对地面光线-近红外天文观测设备的影响。卫星对天文学的影响主要是基于其轨道高度。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65404">阅读更多...</a>
+                    | <a href="/comments?sid=65404&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65403">墨西哥毒贩使用携带炸弹的无人机执行暗杀活动</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=137" title="犯罪"><img
+                        width="80" height="80"
+                        src="https://icon.solidot.org/images/topics/topiccrime.png" alt="犯罪" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 21时00分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                墨西哥贩毒集团以武器精良闻名，现在其中一个贩毒集团<a href="https://www.thedrive.com/the-war-zone/36013/mexican-drug-cartel-now-assassinating-its-enemies-with-improvised-explosive-toting-drones">被发现</a>开始使用携带炸弹的四旋翼无人机去执行暗杀活动。墨西哥 Tepalcatepec 市的一个民间自卫队从毒贩未遂暗杀行动中丢弃的一辆汽车内发现了 24 架携带炸弹的无人机。炸弹内填满了 C4 炸药和充当弹片的滚珠轴承。这辆汽车据称属于贩毒集团 CJNG 所有。CJNG 最早在 2009 年亮相，据称经常与其它贩毒集团、政府和民间自卫队展开火拼。美国政府估计墨西哥运到美国的毒品有三分之一来自于 CJNG。它正扩大生意到亚洲和欧洲地区。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65403">阅读更多...</a>
+                    | <a href="/comments?sid=65403&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65402">地球的固态内核只有 10 亿年历史</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 20时54分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                根据发表在《Physical Review Letters》期刊上的<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.078501">一项研究</a>，地球的固态内核只有 10 亿到 13 亿年历史。中美科学家通过将激光加热的铁样品在两个金刚石砧之间挤压从而创造出类似于地球核心的环境，研究人员表示，这一年龄位于此前 13 亿至 45 亿年估计年龄谱的较小端；但又比最近一项仅 5.65 亿岁的估计大一些。更重要的是，最新研究有助于科学家确定地核的热流量，以及为“地球发电机”提供动力的能量来源。研究者四川大学张友君副教授<a href="http://news.sciencenet.cn/htmlnews/2020/8/444887.shtm">解释称</a>，地球的核心主要由铁构成，分为固态内核和液态外核。高温的铁地核通过热传导向地幔中传递热量，因此地核的热导率是确定地核许多属性包括内地核如何形成以及“地球发电机”如何驱动的关键。“地球发动机”则是指带电的富铁液态外核的运动产生了地球磁场。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65402">阅读更多...</a>
+                    | <a href="/comments?sid=65402&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65401">SpaceX Falcon 火箭完成第一百次发射</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=54" title="商业"><img
+                        width="64" height="54"
+                        src="https://icon.solidot.org/images/topics/topicbusiness.gif" alt="商业" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 20时31分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                SpaceX 于周日 23:18 UTC 在佛罗里达的卡纳维拉尔角使用 Falcon 9 火箭<a href="https://www.nasaspaceflight.com/2020/08/spacex-polar-cape-50-years/" target="_blank">完成了</a> 50 年来的首次极轨卫星发射，同时这也是 Falcon 系列火箭的第一百次发射。当天天气状况不佳，但 SpaceX 还是找到了空隙发射了火箭，此次任务的主发射负荷为阿根廷的 SAOCOM-1B 卫星，火箭需要通过极地走廊向南飞，将会经过人口密集地区，为了减少安全风险，火箭第二级执行了急转弯机动绕过人口密集区域，这是佛罗里达自 1969 年 2 月 26 日以来首次执行极轨卫星发射。SAOCOM-1B 卫星重 1.6 吨，搭载了合成孔径雷达。火箭还搭载了另外两颗小型卫星：GNOMES-1 和 Tyvak-0172。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65401">阅读更多...</a>
+                    | <a href="/comments?sid=65401&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65399">《通信短信息服务管理规定》修订稿限制垃圾电话和短信</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=148" title="长城"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChina.png" alt="长城" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 17时41分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                <a href="mailto:cxplay@qq.com">CXPLAY</a> 写道<i> "工信部今天宣布对《通信短信息服务管理规定》进行修订，形成<a href="http://www.miit.gov.cn/n1278117/n1648113/c8067062/part/8067076.docx" target="_self" title="《通信短信息和语音呼叫服务管理规定（征求意见稿）》 (http://www.miit.gov.cn/n1278117/n1648113/c8067062/part/8067076.docx)">《通信短信息和语音呼叫服务管理规定（征求意见稿）》</a>，现向社会<a href="http://www.miit.gov.cn/n1278117/n1648113/c8067062/content.html?tsrccbtlbrf" target="_blank">公开征求意见</a>，可于 9 月 30 日前反馈；
+意见稿中指出，任何组织或个人未经用户同意或者请求，或者用户明确表示拒绝的，不得向其发送商业性短信息或拨打商业性电话，基础电信业务经营者不得为未取得电信业务经营许可的单位或者个人提供用于经营短信息和语音呼叫服务的接入服务及通信资源。"</i>            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65399">阅读更多...</a>
+                    | <a href="/comments?sid=65399&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65399"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//security.solidot.org'>安全</a>: </span>
+                    
+                    <a href="/story?sid=65400">前工程师承认删除了 456 个思科 WebEx 虚拟机 </a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=100" title="安全"><img
+                        width="59" height="78"
+                        src="https://icon.solidot.org/images/topics/topicsecurity.gif" alt="安全" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 17时38分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                前思科工程师<a href="https://www.theregister.com/2020/08/26/former_cisco_engineer_aws_webex_teams/">承认</a>非法访问了前雇主的 AWS 基础设施，删除了 456 个 WebEx 虚拟机。Sudhish Kasaba Rames 于 2016 年 7 月到 2018 年 4 月之间任职于思科，在离开公司 5 个月后的 2018 年 9 月非法访问了思科的 AWS 基础设施，破坏了用于 WebEx 视频会议服务的虚拟机。这一行动导致了 1.6 万多个 WebEx Teams 账号关闭最长两周时间，思科为此花了 140 万美元的雇员时间去进行补救，向客户退款 100 多万美元。Rames 是通过 H-1B 签证来到美国的，目前正在申请绿卡。他将面临最长五年徒刑和 25 万美元罚款。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65400">阅读更多...</a>
+                    | <a href="/comments?sid=65400&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65398">台发生风筝卷起女童事故</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=6" title="新闻"><img
+                        width="34" height="44"
+                        src="https://icon.solidot.org/images/topics/topicnews.gif" alt="新闻" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 16时47分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                台湾新竹南寮周日的风筝节活动<a href="https://tw.news.yahoo.com/%E9%A2%A8%E7%AE%8F%E6%8D%B2%E8%B5%B7%E5%A5%B3%E7%AB%A5-%E6%B0%91%E7%9C%BE%E8%A6%8B%E7%BE%A9%E5%8B%87%E7%82%BA%E8%B7%B3%E8%B5%B7%E6%8A%B1%E4%B8%8B-042400487.html" target="_blank">发生了惊险一幕</a>，风筝在放飞时卷起了女童，幸好最终有惊无险，风停下来女童往下掉时被地面人群接住。接住她的人姓林，林先生回忆女童被救下来时，脖子被缠住，满脸通红，还以为她要窒息了，他说：「从脖子上拉了就上去了，看到她的时候她其实脸很红，眼睛是没有打开的，看到她有意识有哭我才走的。」”看到女童被卷上天，林先生第一时间还以为是表演特技，等发现不对劲时，直觉就是一定要接到人，「我当下其实想到说，就觉得说可能是，我不能让那小朋友摔下来，因为小朋友摔下来的话，真的是比较严重。」新竹市长林智坚说：「发生意外的这个糖果风筝，我们未来绝对不会再办，未来各项大型的活动，公共安全上我们会更加严谨的来要求。」            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65398">阅读更多...</a>
+                    | <a href="/comments?sid=65398&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65397">美国睡眠医学学会呼吁取消夏令时</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 16时06分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国睡眠医学学会（AASM）等机构<a href="https://aasm.org/american-academy-of-sleep-medicine-calls-for-elimination-of-daylight-saving-time/">发表声明</a>，呼吁取消夏令时，改用永久标准时间，认为这更有利于公众健康和安全。睡眠医学学会称，标准时间与人体的昼夜周期节律更为一致。声明称，夏令时扰乱了人体的自然节律，导致了更多的问题，从增加中风和住院风险到缺觉和增加炎症标志物的产生。最近的一项研究发现，夏令时后一周人为错误相关的医疗事故增加了 18%。AASM 对愈 2000 美国人的调查发现，63% 的人支持取消，只有 11 % 的人反对。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65397">阅读更多...</a>
+                    | <a href="/comments?sid=65397&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65397"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65396">美国发现新冠二次感染病例，患者症状严重</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 15时09分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                在香港和欧洲之后，美国<a href="https://arstechnica.com/science/2020/08/another-covid-19-reinfection-this-time-second-infection-was-more-severe/#p3">也报告了</a>新冠二次感染病例，但与香港和欧洲的患者无症状不同的是，美国患者出现严重症状。内华达州大学研究人员<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3681489">报告</a>，一名 25 岁的该州居民相隔 48 天两次感染新冠病毒，第二次感染症状严重，需要住院和输氧。研究报告尚未经过同行审议。这项研究引发了有关感染后免疫保护及其持续时间的更多疑问，研究人员目前没有答案。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65396">阅读更多...</a>
+                    | <a href="/comments?sid=65396&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65395">黑豹扮演者 Chadwick Boseman 的去世讣告是 Twitter 点赞最多的推文</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=158" title="Twitter"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicTwitter.png" alt="Twitter" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 14时39分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                上周五，漫威超英电影《黑豹》的主演 Chadwick Boseman 的家人通过其官方<a href="https://twitter.com/chadwickboseman/status/1299530165463199747?s=20"> Twitter 账号</a>宣布了他因罹患大肠癌去世的消息，年仅 43 岁。这一消息非常出人意料，震惊了无数人，之前没人知道他患有癌症。
+这一突发去世讣告在短短数天内成为 Twitter 上<a href="https://en.wikipedia.org/wiki/List_of_most-liked_tweets#List" target="_blank">至今点赞最多的推文</a>，有 730 万人表示同情（点赞），远超过美国前总统奥巴马在 2017 年发表的一则推文（430 万人点赞）。Boseman 在拍摄黑豹前的 2016 年就已被查出罹患<a href="https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%85%B8%E7%99%8C">大肠癌</a>三期，他之后出演了四部漫威电影——《美国队长3》 、《黑豹》 、《复仇者联盟3：无限战争》和《复仇者联盟4：终局之战》。很多人对他罹患癌症后仍然继续参与制作电影的勇气表达了敬佩。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65395">阅读更多...</a>
+                    | <a href="/comments?sid=65395&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65394">Level3 发生大规模网络中断事故</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=17" title="互联网"><img
+                        width="70" height="73"
+                        src="https://icon.solidot.org/images/topics/topicinternet.gif" alt="互联网" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月31日 14时17分            星期一<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Tier 1 网络供应商 Level3 在美国时间 8 月 30 日<a href="https://puck.nether.net/pipermail/outages/2020-August/013187.html">发生了</a>大规模网络中断事故，主要影响 IPv4，IPv6 不受影响。Level3 的事故连带影响到了 CDN 服务商以及 CDN 的客户，用户通过社交网络报告众多流行的服务和网站<a href="https://www.cnn.com/2020/08/30/tech/internet-outage-cloudflare/index.html">出现连接问题</a>，其中包括 Hulu、PlayStation Network、Xbox Live、Feedly、Discord 等等。事故的主要影响地区为欧洲和美国。<a href="https://en.wikipedia.org/wiki/Tier_1_network" target="_blank">Tier 1 网络供应商</a>是无需为对等互联支付任何 IP 转接费用的全球性 IP 网络，如中国电信和联通都不是 Tier 1 网络供应商。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65394">阅读更多...</a>
+                    | <a href="/comments?sid=65394&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//technology.solidot.org'>科技</a>: </span>
+                    
+                    <a href="/story?sid=65393">索尼考虑将更多第一方游戏带到 PC 平台</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=101" title="索尼"><img
+                        width="81" height="16"
+                        src="https://icon.solidot.org/images/topics/topicsony.gif" alt="索尼" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月30日 23时15分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                索尼在<a href="https://www.sony.net/SonyInfo/IR/library/corporatereport/CorporateReport2020_E.pdf">公司报告</a>（PDF）中表示考虑将更多第一方作品带到 PC 平台，目的是“促进盈利能力的进一步增长”。本月初，索尼旗下的工作室 Guerrilla 在 Steam 上发布了 PC 版的《<a href="https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/#app_reviews_hash" target="_blank">Horizon Zero Dawn Complete Edition</a>》，由于移植版本存在严重的优化问题，玩家对其的评价是“褒贬不一”。根据 steamspy 的<a href="https://steamspy.com/app/1151640">统计</a>，《Horizon Zero Dawn》的销量在 20 万到 50 万之间，以 50 美元价格计算的话，收入在 1000 万到 2500 万美元之间。《Horizon Zero Dawn》的移植版本是由新加坡/中国游戏公司  Virtuos 负责的。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65393">阅读更多...</a>
+                    | <a href="/comments?sid=65393&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65392">TikTok 的交易将面临中国的出口审查</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=148" title="长城"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChina.png" alt="长城" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月30日 23时01分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                商务部和科技部本周五<a href="https://www.solidot.org/story?sid=65385">发布了</a>调整后的《中国禁止出口限制出口技术目录》，其中限制出口的信息处理技术包括“基于数据分析的个性化信息推送服务技术”。今天的社交网络服务广泛利用推荐算法提供个性化信息推送服务，如 YouTube 和 TikTok（在中国就是抖音）。这一技术限制出口增加了即将发生的 TikTok 交易所面临的挑战，意味着中国将要审查这一交易。中国对外经济贸易大学教授崔凡<a href="http://www.xinhuanet.com/2020-08/29/c_1126428865.htm">称</a>，“如果字节跳动计划出口相关技术，应该履行申请许可程序。”字节跳动的国际业务能够取得快速发展，依靠的是其国内强大的技术支撑，它源源不断地向境外公司提供最新的核心算法服务，就是一种典型的技术服务出口。如果它的国际业务要继续顺利运营，无论其新的所有者和运营者是谁，很可能都需要从中国境内向境外转让软件代码或其使用权，也可能需要从中国境内向境外提供技术服务。字节跳动已经表示将严格遵守《中华人民共和国技术进出口管理条例》和《中国禁止出口限制出口技术目录》。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65392">阅读更多...</a>
+                    | <a href="/comments?sid=65392&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65392"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//technology.solidot.org'>科技</a>: </span>
+                    
+                    <a href="/story?sid=65391">AI 再现罗马帝国皇帝肖像</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=151" title="人工智能"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicAI.png" alt="人工智能" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月30日 22时31分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Daniel Voshart 是电影业的一位 VR 专家，因为新冠疫情他的工作项目都暂停了，所以他开始做一些个人爱好项目，他最近完成的一个项目是为罗马帝国的 54 位皇帝<a href="https://medium.com/@voshart/photoreal-roman-emperor-project-236be7f06c8f" target="_blank">创造照片级的肖像</a>，销售这些肖像的印刷版。出乎他意料的是，首批 300 幅肖像在短时间内就售罄了。为了创造罗马皇帝的肖像，他<a href="https://www.theverge.com/2020/8/21/21395115/roman-emperors-photorealistic-portraits-ai-artbreeder-dan-voshart#content" target="_blank">组合使用了</a>多种软件和资源，主要是叫 <a href="https://www.artbreeder.com/browse">ArtBreeder</a> 的在线程序，该程序利用了名为生成式对抗网络的机器学习方法。Voshart 向 ArtBreeder 输入了来自雕塑、硬币和绘画的罗马皇帝图像，然后根据历史描述使用 Photoshop 进行调整，再将调整后的图像输入回 ArtBreeder，重复多次，最后得到了最佳的照片级图像。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65391">阅读更多...</a>
+                    | <a href="/comments?sid=65391&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65390">得州农工教授被控在为 NASA 开展研究期间隐瞒与中国的关系</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月30日 22时06分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国司法部<a href="http://www.justice.gov/opa/pr/nasa-researcher-arrested-false-statements-and-wire-fraud-relation-china-s-talents-program">逮捕了</a>得州农工工程学院教授和 NASA 研究员成正东（Zhengdong Cheng），<a href="https://www.cnbc.com/2020/08/24/texas-am-professor-accused-of-collaborating-with-china-amid-nasa-work.html">指控</a>他犯有共谋、虚假陈述和电信欺诈罪行，被控在为 NASA 从事研究期间隐瞒与中国的关系。成正东自 2004 年起受雇于得州农工，期间得到了包括 NASA 在内的美国政府机构的研究拨款。从 2012 年到 2018 年，他担任了广东工业大学软物质研究所的主任，参与了中国的百人计划和珠江人才计划。2014 年他参与成立了佛山市格维科技有限公司，与创始成员持有公司九成的股份。得州南区检察官 Ryan Patrick 称，美国有 140 万为了恰当理由来的外国研究人员和学者，而中国的人才项目利用了美国开放与自由的大学。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65390">阅读更多...</a>
+                    | <a href="/comments?sid=65390&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65390"><b>2</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65389">用户的浏览历史是独一无二的</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=133" title="隐私"><img
+                        width="71" height="53"
+                        src="https://icon.solidot.org/images/topics/topicprivacy.gif" alt="隐私" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月30日 18时26分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                2012 年，法国和 Google 的研究人员分析了 382,269 名用户的浏览历史所构成的大型数据集，调查浏览历史是否能作为指纹跟踪用户。研究人员<a href="https://hal.inria.fr/hal-00747841/document" target="_blank">发现（PDF）</a>，绝大部分用户的浏览历史是独一无二的，并且相当稳定，可作为指纹使用。在本月举行的 USENIX 会议上，Mozilla 的研究人员<a href="https://www.usenix.org/system/files/soups2020-bird.pdf">重复了这项研究并进行了延申</a>（PDF）。研究人员使用的数据集包含了 5.2 万名 Firefox 用户在两周内的浏览历史，分析显示了 48,919 个可区分的浏览资料，即 99% 的浏览历史是独一无二的。超过八成用户可通过浏览历史重新识别身份。研究人员还发现，只需要考虑 50 个最流行网站就足以获得独特指纹。这项研究凸显出收集浏览历史所带来的<a href="https://blog.lukaszolejnik.com/web-browsing-histories-are-private-personal-data-now-what/" target="_blank">个人隐私问题</a>，研究人员称他们发现大量第三方在收集用户浏览历史将其作为标识符使用。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65389">阅读更多...</a>
+                    | <a href="/comments?sid=65389&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65387">Google 下架 Fediverse 应用</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=26" title="Google"><img
+                        width="104" height="38"
+                        src="https://icon.solidot.org/images/topics/topicgoogle.gif" alt="Google" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月29日 17时09分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Google 从其应用商店 <a href="https://qoto.org/@freemo/104765288863293481">下架了</a>多个 Fediverse 应用如 Husky 和 Fedilab，理由是部分 Fediverse 服务器上有仇恨言论。<a href="https://en.wikipedia.org/wiki/Fediverse">Fediverse</a> 是 federation 和 universe 的混合词，是一组去中心化的互联服务器，使用 Matrix 等协议用作社交网络、文件共享等服务。Fediverse 应用访问的就是不同互联服务器上的内容，类似浏览器访问不同网站。Google 的理由被认为也可以用于封杀非 Chrome  浏览器。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65387">阅读更多...</a>
+                    | <a href="/comments?sid=65387&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65387"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//apple.solidot.org'>苹果</a>: </span>
+                    
+                    <a href="/story?sid=65386">苹果终止 Epic Games 的开发者账号</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=12" title="苹果"><img
+                        width="52" height="64"
+                        src="https://icon.solidot.org/images/topics/topicapple.gif" alt="苹果" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月29日 13时15分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                苹果兑现了它的威胁，<a href="https://www.macrumors.com/2020/08/28/apple-terminates-epic-games-developer-account/">如期终止了</a> Epic Games 的开发者账号。Epic Games 的热门游戏《堡垒之夜》几周前就从 App Store‌ 商店下架，但该公司旗下的其它游戏如 Battle Breakers 和 Infinity Blade Stickers 之前一直留在商店里，当开发者账号被终止后这些游戏都消失了。《堡垒之夜》本月初引入了直接支付选项，绕过了苹果的应用内支付系统，因此被苹果以违反规则为由下架。Epic 随后提起了诉讼，另一个巨头微软对 Epic 表达了支持。苹果想要终止 Epic 的两个开发者账号——Epic Games 和 Epic International，后者用于虚幻引擎，但法官发出临时限制令，阻止苹果终止虚幻引擎的开发者账号。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65386">阅读更多...</a>
+                    | <a href="/comments?sid=65386&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65386"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65385">中国不再限制防火墙软件出口</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=148" title="长城"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChina.png" alt="长城" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月29日 13时00分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                商务部和科技部<a href="http://www.most.gov.cn/tztg/202008/t20200828_158545.htm">发布</a>了关于调整发布《中国禁止出口限制出口技术目录》的公告，对部分技术的出口实施限制，同时取消部分技术的出口限制。<a href="http://www.most.gov.cn/tztg/202008/W020200828781000006753.pdf">调整后的《目录》</a>（PDF）显示，中国不再限制防火墙软件出口。公告称：限制出口电磁干扰射线枪等反无人机技术；高速网络环境下的深度包检测技术、基于大规模信息采集与分析的战略预警技术、网络预警联动反应技术、APT攻击检测技术、流量捕获和分析技术等都限制出口；信息安全防火墙软件技术不再限制出口。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65385">阅读更多...</a>
+                    | <a href="/comments?sid=65385&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65385"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+        <div class="page">
+	<a href='//www.solidot.org/?issue=20200831'>昨天的文章</a></div>
+</div>
+<script type="text/javascript" language="javascript">
+        $('div.block_m span.user').mouseover(function () {
+        var _this = $(this).children('.user_box');
+        if (_this.html() == "") {
+            var start = '<div class="user_on"></div><div class="user_midd">';
+            var end = '</div><div class="user_down"></div>';
+            _this.html(start + '<div class="us_box cenTer"><div class="tloading"></div></div>' + end);
+            $.ajax({
+                type: "POST",
+                url: "/user/userinfo",
+                data: "user=" + $(this).attr('id'),
+                success: function (data) {
+                    var data = eval("(" + data + ")");
+                    var content = '';
+                    if (data[0] == -2) {
+                        content += '<div class="us_box cenTer">暂无个人简介</div>';
+                    } else {
+                        content += '<div class="us_box">' + data[0][0] + data[0][1] + '</div>';
+                        content += '<div class="us_box"><b class="l">关系：</b>';
+                        if (data[1] == -1) {
+                            content += '自己';
+                        } else if (data[1][0] == 0) {
+                            content += '<img src="https://icon.solidot.org/images/default/neutral.gif" class="my_rship"/>普通&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 1) {
+                            content += '<img src="https://icon.solidot.org/images/default/friend.gif" class="my_rship"/>朋友&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 2) {
+                            content += '<img src="https://icon.solidot.org/images/default/foe.gif" class="my_rship"/>敌人&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        }
+                        content += "</div>";
+                        if (data[2] != undefined) {
+                            content += '<div class="us_box"><b>签名：</b>' + data[2] + '</div>';
+                        }
+                    }
+                    _this.html(start + content + end);
+                }
+            })
+        }
+        else
+            _this.removeClass('hiden')
+    }).mouseout(function () {
+        $(this).children('div.user_box').addClass('hiden')
+    })
+</script>
+
+﻿	<div class="clear"></div>
+	<div id="footer">
+	  <p class="famous">自由的保证是什么?是对自己不再感到羞耻。--尼采</p>
+	  <div class="btmnav">
+	    <ul>
+	      <li class="begin"> <a href="/">首页</a> </li>
+	      <li> <a href="http://www.zhiding.cn">至顶网</a> </li>
+	      <li> <a href="/submit">提交文章</a> </li>
+	      <li> <a href="/?issume=20200831">往日文章</a> </li>
+	      <li> <a href="/polllist">过去的投票</a> </li>
+	      <li> <a href="/authors">编辑介绍</a> </li>
+	      <li> <a href="/privacy">隐私政策</a> </li>
+	      <li> <a href="/terms">使用条款</a> </li>
+	      <li> <a href="/introd">网站介绍</a> </li>
+	      <li> <a href="/index.rss">RSS</a> </li>
+	    </ul>
+	  </div>
+	  <div id="copyinfo">
+	    <p>本站提到的所有注册商标属于他们各自的所有人所有，评论属于其发表者所有，其余内容版权属于 solidot.org(2009-<script>document.write(new Date().getFullYear());</script>) 所有 。</p>
+	    <p>
+	    	<a href="//php.net/" title="PHP 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/php.gif" alt="php"></a>
+	    	<a href="//apache.org/" title="Apache 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/apache.gif" alt="apache"></a>
+	    	<a href="//www.mysql.com/" title="MySQL" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/mysql.gif" alt="mysql"></a>
+	    </p>
+	    <p><a href="//www.solidot.org" title="solidot.org"><img border="0" src="https://icon.solidot.org/images/btn/solidot-s.gif"></a></p>
+	    <p>京ICP证161336号&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.beian.miit.gov.cn">京ICP备15039648号-15</a> 北京市公安局海淀分局备案号：11010802021500 <a href="//icp.valu.cn/search/domain/solidot.org?verifyCode=pu7c4"><img src="//icon.zhiding.cn/beian/icon.png" style="margin-right:8px;"></a> </p>
+	    <p>违法和不良信息举报电话：13070156560　举报邮箱：jubao@zhiding.cn　网上有害信息举报专区：<a href="https://www.12377.cn" target="_blank">https://www.12377.cn</a></p>
+	  </div>
+	  <div class="clear"></div>
+	</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d11396a350156e4682e4156a671bdaf1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type='text/javascript' language='javascript' src='https://icon.solidot.org/js/base.js'></script><script type="text/javascript">
+$('#ul_nav li.s_icon').mouseover(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+}).mouseout(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+});
+$('.wechat').mouseover(function(){
+	$('.wechat_code').toggleClass('hiden');
+}).mouseout(function(){
+	$('.wechat_code').toggleClass('hiden');
+});
+</script>
+<!--
+<script src="https://togetherjs.com/togetherjs-min.js"></script>
+<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    var pv = "http://pv.zhiding.cn/js/pv.js";
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    if (curProtocol ==='https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        pv = "https://pv.zhiding.cn/js/pv.js";
+    }
+    //document.getElementById('pv').src=pv;
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</body>
+</html>
